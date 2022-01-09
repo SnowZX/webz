@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: white;
+    font-family: poppins;
+}
+
+nav{
+    padding-top: 10px;
+    display: flex;
+    background: white;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    opacity: 0.970;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 10px;
+}
+
+nav li{
+    cursor: pointer;
+}
+
+.morenav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 55px;
+    transition: ease-in-out 0.1s;
+}
+
+.morenav a:hover{
+    color: #064cbd;
+}
+
+.morenav:hover > ul{
+    display: block;
+    opacity: 1;
+}
+
+.morenav ul{
+    padding: 10px;
+    transition: ease-in-out 0.2s;
+    box-shadow: 0px 0px 20px #00000010;
+    border-radius: 5px;
+    background: white;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    z-index: 4;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+#logo{
+    width: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+nav li{
+    list-style: none;
+}
+
+.nava{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 55px;
+    transition: ease-in-out 0.1s;
+}
+
+.nava:hover{
+    color: #064cbd;
+    margin-top: -5px;
+}
+
+#home{
+    width: 100%;
+    max-width: fit-content;
+    padding-top: 12%;
+    padding-left: 9rem;
+    background: rgb(231, 231, 231);
+    padding-right: 9rem;
+    height: 65vh;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+#txthome{
+    text-align: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+#txthome h1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#txthome h3{
+    font-weight: lighter;
+    font-weight: bold;
+    margin-top: 24px;
+    color: rgb(46, 46, 46);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#txthome a{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+}
+
+#topbtn{
+    color: white;
+    background: #116DFF;
+    padding-left: 20px;
+    border: 2px solid #116DFF;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    font-family: poppins;
+    font-size: 1.2rem;
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 0.150s;
+    width: 160px;
+    cursor: pointer;
+}
+
+#topbtn:hover{
+    background: none;
+    color: #116DFF;
+}
+
+#txthome h4{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+#servicesh1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#services{
+    margin-top: 5rem;
+}
+
+#hostinfo{
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 14rem;
+    padding-top: 3rem;
+}
+
+#txthostinfo{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 5rem;
+    max-width: 60%;
+}
+
+#txthostinfoa{
+    font-size: 2.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+}
+
+#txthostinfoa:hover{
+    color: #116DFF;
+}
+
+#txthostinfo h3{
+    color: rgb(46, 46, 46);
+    margin-top: 15px;
+    font-size: 1.3rem;
+    cursor: default;
+}
+
+#txthostinfoaa{
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+}
+
+#hirehost{
+    color: white;
+    background: #116DFF;
+    padding-left: 17px;
+    border: 2px solid #116DFF;
+    padding-right: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50px;
+    font-family: poppins;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 0.150s;
+    cursor: pointer;
+}
+
+#hirehost:hover{
+    background: none;
+    color: #116DFF;
+}
+
+#hostimg{
+    width: 40%;
+    height: 100%;
+}
+
+#webinfo{
+    display: flex;
+    margin-left: 14rem;
+    margin-right: 12rem;
+}
+
+#txtwebinfo{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    max-width: 60%;
+}
+
+#txtwebinfoa{
+    font-size: 2.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+}
+
+#txtwebinfoa:hover{
+    color: #116DFF;
+}
+
+#txtwebinfo h3{
+    color: rgb(46, 46, 46);
+    margin-top: 15px;
+    font-size: 1.3rem;
+    cursor: default;
+}
+
+#hireweb{
+    color: white;
+    background: #116DFF;
+    padding-left: 17px;
+    border: 2px solid #116DFF;
+    padding-right: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50px;
+    font-family: poppins;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 0.150s;
+    cursor: pointer;
+}
+
+#hireweb:hover{
+    background: none;
+    color: #116DFF;
+}
+
+#webimg{
+    width: 35%;
+    height: 100%;
+}
+
+.mant{
+    width: 100%;
+    display: none;
+    align-items: center;
+}
+
+#mantbtn{
+    color: white;
+    background: #116DFF;
+    padding-left: 20px;
+    border: 2px solid #116DFF;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    font-family: poppins;
+    font-size: 1.2rem;
+    margin-top: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 0.150s;
+    width: 160px;
+    cursor: pointer;
+}
+
+.h1mant{
+    font-size: 4rem;
+    font-family: 'poppins';
+    text-align: center;
+}
+
+footer{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-top: 1px solid rgb(185, 185, 185);
+    margin-top: 5rem;
+}
+
+footer li{
+    text-align: center;
+    padding: 10px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer h1{
+    text-align: center;
+}
+
+@media (max-width: 1240px) {
+    #main{
+        display: none;
+    }
+    .mant{
+        display: block;
+        justify-content: center;
+    }
+}
